@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    background: #F3F4F6;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.3s;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+  }
+  
+  .day:hover {
+    background-color:#e4edff; 
+    border: 1px solid #689bff;
+  }
+  
+  .day-name {
+    font-size: 8px;
+    text-transform: uppercase;
+    color:#696969;
+  }
+  
+  .day-number {
+    color: #3a3a3a;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+  }
+  
+  .day-events {
+    list-style: none;
+    margin-top: 3px;
+    text-align: center;
+    height: 8px;
+    line-height: 6px;
+    overflow: hidden;
+  }
+  
+  .event {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0 1px;
+  }
+
+  .today {
+    background-color: rgb(218, 255, 218);
+    border: 1px solid #29ff70;
+  }
+  
+  .has-events {
+    background-color:#e4edff; 
+    border: 1px solid #689bff;
+    color:#4281ff
+  }
+  
+  .has-events:focus {
+    background-color:#d5e3ff; 
+    border: 1px solid #689bff;
+  }
+  
+  .orange { background: rgba(247, 167, 0, 1); }
+  .blue { background: rgba(156, 202, 235, 1); }
+  .yellow { background: rgba(249, 233, 0, 1); }
+  .green { background: rgba(153, 198, 109, 1); }
+  
+  .today {
+    color: rgba(156, 202, 235, 1);
+  }
