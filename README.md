@@ -43,20 +43,6 @@ Install dependencies- npm install or yarn install
 
 Start the development server- npm start or yarn start
 
-Project Structure:
-├── public
-├── src
-│   ├── components
-│   ├── redux
-│   │   ├── actions
-│   │   ├── reducers
-│   │   └── store.js
-│   ├── pages
-│   ├── styles
-│   └── App.js
-├── package.json
-└── README.md
-
 Deployment:
 You can deploy the application to platforms like Vercel, Netlify, or GitHub Pages. Follow the platform-specific documentation for deployment instructions.
 
